@@ -1,0 +1,41 @@
+/*border colr: #bdc3c7
+date color: #3498db
+h2 color #2c3e50
+font: source sans pro*/
+
+body{
+	border: 20px solid #bdc3c7;
+	width: 80%;
+	max-width: 700px;
+	margin: 20px auto;
+	padding: 10px;
+	font-family: 'Source Sans Pro';
+}
+
+h2{
+	color: #2c3e50;
+	text-align: left;
+	font-size: 2.0rem;
+}
+
+.date{
+	color: #3498db;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+}
+
+.quote{
+	border-left: 5px solid #bdc3c7;
+	padding-left: 5px;
+}
+
+.post{
+	margin-bottom: 20px;
+}
+
+hr{
+ border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
